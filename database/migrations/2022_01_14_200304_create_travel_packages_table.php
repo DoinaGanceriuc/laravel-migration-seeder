@@ -15,6 +15,10 @@ class CreateTravelPackagesTable extends Migration
     {
         Schema::create('travel_packages', function (Blueprint $table) {
             $table->id();
+            $table->string('city');
+            $table->string('hotel');
+            $table->decimal('price', 6, 2);
+            $table->decimal('vote', 2, 1);
             $table->timestamps();
         });
     }
