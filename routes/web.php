@@ -12,6 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
-
 Route::get('/', 'TravelController@index');
+Route::get('/flight', 'TravelController@travel');
 Route::get('/trip', 'TravelController@trip');
