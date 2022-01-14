@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', 'TravelController@index');
+Route::get('/trip', 'TravelController@trip');

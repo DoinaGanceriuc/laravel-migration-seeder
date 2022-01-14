@@ -4,7 +4,7 @@
 
 <div class="container">
 <h1 class="title">Agenzia Viaggi</h1>
-<div class="movies">
+<div class="travels">
 @forelse ($travels as $travel)
 
             <div class="info_voyage">
@@ -15,7 +15,7 @@
             </div>
 
 @empty
-<p> No movie found</p>
+<p> No travel found</p>
 
 @endforelse
 </div>
