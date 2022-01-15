@@ -1,1 +1,19 @@
 //
+@use "bootstrap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.render {
+    .package {
+        background-color: purple;
+        color: white;
+    }
+    .flight {
+        background-color: violet;
+        color: white;
+    }
+}

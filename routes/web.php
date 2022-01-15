@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
  */
 Route::get('/', 'TravelController@index');
-Route::get('/flight', 'TravelController@travel');
-Route::get('/trip', 'TravelController@trip');
+Route::get('/flight', 'TravelController@travel')->name('flight');
+Route::get('/trip', 'TravelController@trip')->name('package');

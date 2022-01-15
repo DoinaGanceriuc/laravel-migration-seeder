@@ -2,8 +2,12 @@
 
 @section('content')
 
-<div class="container">
-<h1 class="title">Agenzia Viaggi</h1>
+<div class="container text-center">
+<h1 class="title py-5">Agenzia Viaggi</h1>
+<h2>Benvenuto! Trova un volo flessibile per il tuo prossimo viaggio.</h2>
+<div class="render py-5">
+    <a class="btn package me-3" href="{{ route('package') }}">Packages</a>
+    <a class="btn flight" href="{{ route('flight') }}">Flights</a>
 </div>
 </div>
 
