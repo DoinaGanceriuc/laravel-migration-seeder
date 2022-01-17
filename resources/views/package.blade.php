@@ -19,18 +19,10 @@
                     <h5><strong>Prezzo:</strong> {{$package->price}}</h5>
                     <p><strong>Voto:</strong> <span class="vote">{{$package->vote}}</span></p>
                 </div>
-                <a href="#" class="btn offer">Vedi offerta</a>
+                <a href="{{route('single', ['single_package' => $package->id])}}" class="btn offer">Vedi offerta</a>
       </div>
-
   </div>
 </div>
-
-            <div class="info_voyage">
-
-            </div>
-
-
-
 @endforeach
 </div>
 </div>

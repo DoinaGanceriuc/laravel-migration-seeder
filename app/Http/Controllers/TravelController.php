@@ -27,4 +27,12 @@ class TravelController extends Controller
 
         return view('package', compact('packages'));
     }
+
+    public function show(Package $single_package)
+    {
+        //ddd($single_package);
+        //$packages = Package::all();
+
+        return view('packages.show', compact('single_package'));
+    }
 }
