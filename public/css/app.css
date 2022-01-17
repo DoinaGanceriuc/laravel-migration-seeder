@@ -12189,6 +12189,11 @@ fieldset:disabled .btn {
   color: white;
 }
 
+.render .news {
+  background-color: darkviolet;
+  color: white;
+}
+
 /* Package view */
 
 .vote {

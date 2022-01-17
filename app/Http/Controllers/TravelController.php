@@ -35,4 +35,9 @@ class TravelController extends Controller
 
         return view('packages.show', compact('single_package'));
     }
+
+    public function news()
+    {
+        return view('news');
+    }
 }
