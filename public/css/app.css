@@ -12211,3 +12211,9 @@ fieldset:disabled .btn {
   color: white;
 }
 
+/* News view */
+
+.pagination {
+  justify-content: center;
+}
+
